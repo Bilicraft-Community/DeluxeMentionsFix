@@ -1,0 +1,7 @@
+name: DeluxeMentionsFix
+version: ${project.version}
+main: com.bilicraft.deluxementionsfix.DeluxeMentionsFix
+api-version: 1.17
+description: 修复DeluxeMentions与其他插件产生的冲突问题
+depend:
+  - DeluxeMentions
