@@ -24,6 +24,7 @@ public final class DeluxeMentionsFix extends JavaPlugin implements Listener {
         Bukkit.getPluginManager().registerEvents(this,this);
         deluxeMentionsListener.clear();
         scanListener();
+        Bukkit.getScheduler().runTask(this, this::scanListener);
     }
 
     @Override
