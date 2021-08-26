@@ -6,12 +6,12 @@
 
     <groupId>com.bilicraft</groupId>
     <artifactId>DeluxeMentionsFix</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
     <name>DeluxeMentionsFix</name>
 
-    <description>修复DeluxeMentions与其他插件产生的冲突问题</description>
+    <description>Fix DeluxeMentions not respect chat event cancelled status issue</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
